@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="Testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/lockback/lockback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson4/TriangleTest.java" afterDir="false" />
+    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="TriagleTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/GBTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/HW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/HW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,39 +55,94 @@
       <recent name="C:\Users\User\IdeaProjects\WebUI\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson4.Square" />
+  <component name="RunManager" selected="JUnit.GBTest.menuButton">
+    <configuration name="GBTest.goToGB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.Lesson4.*" />
+          <option name="PATTERN" value="ru.gb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
+      <option name="METHOD_NAME" value="goToGB" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GBTest.menuButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.Lesson4.*" />
+          <option name="PATTERN" value="ru.gb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson4.TriangleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
+      <option name="METHOD_NAME" value="menuButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GBTest.postsButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
+      <option name="METHOD_NAME" value="postsButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GBTest.searchOfJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
+      <option name="METHOD_NAME" value="searchOfJob" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GBTest.searchingButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
+      <option name="METHOD_NAME" value="searchingButton" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest" />
-        <item itemvalue="Application.Square" />
+        <item itemvalue="JUnit.GBTest.menuButton" />
+        <item itemvalue="JUnit.GBTest.postsButton" />
+        <item itemvalue="JUnit.GBTest.searchingButton" />
+        <item itemvalue="JUnit.GBTest.searchOfJob" />
+        <item itemvalue="JUnit.GBTest.goToGB" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665541841411</updated>
     </task>
+    <task id="LOCAL-00001" summary="TriagleTest">
+      <created>1667365822116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667365822116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +175,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TriagleTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="TriagleTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

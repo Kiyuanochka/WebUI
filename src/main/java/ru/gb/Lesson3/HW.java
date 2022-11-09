@@ -32,7 +32,22 @@ public class HW {
 
         webDriver.findElement(By.xpath("//button [contains(@class,'mn-search-panel__submit')]")).click();
         Thread.sleep(5000);
+
+        webDriver.get("https://gb.ru/");
+        webDriver.findElement(By.xpath("//a [text()='Журнал']")).click();
+        Thread.sleep(5000);
+
+        webDriver.get("https://gb.ru/");
+        webDriver.findElement(By.xpath("//div [contains(@class,'mn-trigger-menu mn-header_hidden-mobile')]")).click();
+
+        Thread.sleep(5000);
+
+
+
+
         webDriver.quit();
+
+
 
 
     }
