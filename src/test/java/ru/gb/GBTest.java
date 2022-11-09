@@ -70,8 +70,9 @@ public class GBTest {
 
         webDriver.get("https://gb.ru/");
         webDriver.findElement(By.xpath("//div [contains(@class,'mn-trigger-menu mn-header_hidden-mobile')]")).click();
-        webDriver.findElement(By.xpath("//span[text()='Мероприятия']"));
+        //webDriver.findElement(By.xpath("//span[text()='Мероприятия']"));
 
+        Assertions.assertTrue(webDriver.findElement(By.xpath("//span[text()='Мероприятия']")).isDisplayed());
         Thread.sleep(5000);
 
 
