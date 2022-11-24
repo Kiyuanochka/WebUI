@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="GBTest">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/ChooseProgramPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson6/SelectEducationTest.java" afterDir="false" />
+    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/GBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/GBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson6/SelectEducationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson6/SelectEducationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,22 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GBTest.searchingButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
-      <option name="METHOD_NAME" value="searchingButton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectEducationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebUI" />
       <extension name="coverage">
@@ -141,13 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectEducationTest.searchingButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.Lesson6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson6.SelectEducationTest" />
+      <option name="METHOD_NAME" value="searchingButtonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SelectEducationTest.SelectEducationTest" />
+        <item itemvalue="JUnit.SelectEducationTest.searchingButtonTest" />
         <item itemvalue="JUnit.SelectEducationTest" />
         <item itemvalue="JUnit.GBTest.menuButton" />
         <item itemvalue="JUnit.GBTest.postsButton" />
-        <item itemvalue="JUnit.GBTest.searchingButton" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667988204054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Логин и пароль нужно заполнить. Тестового логина и пароля нет.">
+      <created>1668648339319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668648339319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +193,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TriagleTest" />
     <MESSAGE value="GBTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="GBTest" />
+    <MESSAGE value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
+    <option name="LAST_COMMIT_MESSAGE" value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
