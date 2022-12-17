@@ -99,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectEducationTest.SelectEducationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectEducationTest.SelectEducationTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="WebUI" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +133,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelectEducationTest.SelectEducationTest" />
         <item itemvalue="JUnit.SelectEducationTest.searchingButtonTest" />
         <item itemvalue="JUnit.SelectEducationTest" />
         <item itemvalue="JUnit.GBTest.menuButton" />
@@ -171,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668648339319</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson4">
+      <created>1671256169194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671256169194</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson4">
+      <created>1671256317092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671256317092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +202,8 @@
     <MESSAGE value="TriagleTest" />
     <MESSAGE value="GBTest" />
     <MESSAGE value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
-    <option name="LAST_COMMIT_MESSAGE" value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
+    <MESSAGE value="lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
