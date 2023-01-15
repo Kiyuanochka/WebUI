@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="">
+    <list default="true" id="e383379d-f25f-46f5-9bdb-2ba44e2f3e4b" name="Changes" comment="Замечаний с прошлой дз устранила так же">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/seleniumStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GB_Attestation/GBLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson6/SelectEducationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/Lesson6/SelectEducationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -40,50 +42,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/NewBackEnd",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\WebUI — копия\src\main\resources" />
       <recent name="C:\Users\User\IdeaProjects\WebUI\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelectEducationTest.SelectEducationTest">
-    <configuration name="GBTest.menuButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI" />
+  <component name="RunManager" selected="JUnit.GBLoginTest.loginPositive">
+    <configuration name="GBLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI — копия" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
+          <option name="PATTERN" value="GB_Attestation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
-      <option name="METHOD_NAME" value="menuButton" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="GB_Attestation" />
+      <option name="MAIN_CLASS_NAME" value="GB_Attestation.GBLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GBTest.postsButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebUI" />
+    <configuration name="GBLoginTest.loginPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebUI — копия" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
+          <option name="PATTERN" value="GB_Attestation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.GBTest" />
-      <option name="METHOD_NAME" value="postsButton" />
+      <option name="PACKAGE_NAME" value="GB_Attestation" />
+      <option name="MAIN_CLASS_NAME" value="GB_Attestation.GBLoginTest" />
+      <option name="METHOD_NAME" value="loginPositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GBLoginTest.loginPositive" />
+        <item itemvalue="JUnit.GBLoginTest" />
         <item itemvalue="JUnit.SelectEducationTest.SelectEducationTest" />
         <item itemvalue="JUnit.SelectEducationTest.searchingButtonTest" />
         <item itemvalue="JUnit.SelectEducationTest" />
-        <item itemvalue="JUnit.GBTest.menuButton" />
-        <item itemvalue="JUnit.GBTest.postsButton" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668648339319</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Замечаний с прошлой дз устранила так же">
+      <created>1669258268920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669258268921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +206,8 @@
     <MESSAGE value="TriagleTest" />
     <MESSAGE value="GBTest" />
     <MESSAGE value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
-    <option name="LAST_COMMIT_MESSAGE" value="Логин и пароль нужно заполнить. Тестового логина и пароля нет." />
+    <MESSAGE value="Замечаний с прошлой дз устранила так же" />
+    <option name="LAST_COMMIT_MESSAGE" value="Замечаний с прошлой дз устранила так же" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
